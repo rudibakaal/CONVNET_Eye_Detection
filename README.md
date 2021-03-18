@@ -5,8 +5,6 @@ Convolutional neural network designed to detect the difference between images of
 
 The data set contains 4852 images of eyes falling into 2 classes open and shut, selected from the Labeled Face in the Wild (LFW) database.[1].
 
-All features were standardised via sklearn's StandardScaler class. The categorical labels were also numerically converted using sklearn's Labelencoder class. Finaly, the converted class vector integer labels were converted into a binary matrix to facilitate categorical crossentropy with keras' to_categorical class.
-
 ## Neural Network Topology and Results Summary
 
 The binary crossentropy loss function was leveraged along with the Rmsprop optimizer for this classification task.
