@@ -24,3 +24,4 @@ After 10 epochs, the training and validation set classifiers reach ~ 93% accurac
 [1]  Gary B. Huang, Manu Ramesh, Tamara Berg, and Erik Learned-Miller.
 Labeled Faces in the Wild: A Database for Studying Face Recognition in Unconstrained Environments.
 University of Massachusetts, Amherst, Technical Report 07-49, October, 2007.
+http://vis-www.cs.umass.edu/lfw/#reference 
