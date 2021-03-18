@@ -12,7 +12,6 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 datagen = tf.keras.preprocessing.image.ImageDataGenerator()
 
-# load and iterate training dataset
 data_dir = '/Users/rudibakaal/Downloads/eye_data'
 
 
@@ -25,7 +24,6 @@ trainDatagen=datagen.flow_from_directory(
     class_mode='binary',
     subset='training',
     )
-
 
 
 valDatagen=datagen.flow_from_directory(
