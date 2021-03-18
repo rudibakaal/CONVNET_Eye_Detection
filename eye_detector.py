@@ -23,6 +23,7 @@ trainDatagen=datagen.flow_from_directory(
     batch_size=(32),
     class_mode='binary',
     subset='training',
+    color_mode='grayscale'
     )
 
 
@@ -31,13 +32,14 @@ valDatagen=datagen.flow_from_directory(
     target_size=(100,100),
     batch_size=(32),
     class_mode='binary',
-    subset='validation'
+    subset='validation',
+    color_mode='grayscale'
 )
 
 
 
 model = tf.keras.models.Sequential([
-    tf.keras.layers.Conv2D(16,kernel_size=(2,2),activation='relu',input_shape=(100, 100,3)),
+    tf.keras.layers.Conv2D(16,kernel_size=(2,2),activation='relu',input_shape=(100, 100,1)),
     tf.keras.layers.MaxPooling2D(pool_size=(2, 2)),
     tf.keras.layers.Conv2D(16,(2,2)),
     tf.keras.layers.MaxPooling2D(pool_size=(2, 2)),
