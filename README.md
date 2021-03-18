@@ -1,11 +1,9 @@
 # CONVNET_Eye_Detection
 
 ## Motivation
-Convolutional neural network designed to detect the difference between images of open vs closed eyes. This detection is especially important in the field of autonomous vehicles so as to ensure drivers are not sleeping behind the wheel. 
+Convolutional neural network designed to detect the difference between images of open vs closed eyes. This detection is especially important in the field of autonomous driving so as to ensure drivers are not sleeping behind the wheel. 
 
 The data set contains 4852 images of eyes falling into 2 classes open and shut, selected from the Labeled Face in the Wild (LFW) database.[1].
-
-All features were standardised via sklearn's StandardScaler class. The categorical labels were also numerically converted using sklearn's Labelencoder class. Finaly, the converted class vector integer labels were converted into a binary matrix to facilitate categorical crossentropy with keras' to_categorical class.
 
 ## Neural Network Topology and Results Summary
 
@@ -24,3 +22,4 @@ After 10 epochs, the training and validation set classifiers reach ~ 93% accurac
 [1]  Gary B. Huang, Manu Ramesh, Tamara Berg, and Erik Learned-Miller.
 Labeled Faces in the Wild: A Database for Studying Face Recognition in Unconstrained Environments.
 University of Massachusetts, Amherst, Technical Report 07-49, October, 2007.
+http://vis-www.cs.umass.edu/lfw/#reference 
