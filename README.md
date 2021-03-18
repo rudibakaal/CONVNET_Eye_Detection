@@ -16,7 +16,7 @@ After 10 epochs, the training and validation set classifiers reach ~ 93% accurac
 ![eye_data_img](https://user-images.githubusercontent.com/48378196/111556310-5b594a80-87de-11eb-922d-36d04ed2a3ae.png)
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/) 
+MIT 
 
 ## References
 [1]  Gary B. Huang, Manu Ramesh, Tamara Berg, and Erik Learned-Miller.
