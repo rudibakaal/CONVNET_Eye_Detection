@@ -3,7 +3,7 @@
 ## Motivation
 Convolutional neural network designed to detect the difference between images of open vs closed eyes. This detection is important in the field of autonomous driving for instance, to ensure drivers aren't asleep behind the wheel. 
 
-The data set contains 4852 images of eyes falling into 2 classes open and shut, selected from the Labeled Face in the Wild (LFW) database.[1].
+The data set contains 4852 images of eyes falling into 2 classes open and shut, selected from the Labeled Face in the Wild (LFW) database[1].
 
 ## Neural Network Topology and Results Summary
 
